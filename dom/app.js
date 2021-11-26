@@ -46,17 +46,19 @@ h3.onclick = function() {
 console.log("coucou");
 }
 
+
 h3.onmouseover = function() {
     console.log("Hop la!");
 }
-*/
 
+*/
 /*
 h3.addEventListener("click" , function (e) {
     console.log(e.target);
 
 })
 */
+
 /*
 const form = document.getElementById("main")
 form.addEventListener("mousemove", mouseTracking);
@@ -64,7 +66,6 @@ form.addEventListener("mousemove", mouseTracking);
 function mouseTracking(e) {
     h3.textContent = `L'axe x: ${e.offsetX} - L'axe Y: ${e.offsetY}` 
 }
-*/
 
 /*
 function messageBienvenue() {
