@@ -21,7 +21,7 @@ function addToList(value) {
   const text = document.createTextNode(value)
   // ajoute du text a notre 'li'
   li.appendChild(text)
-  // ajoute un le 'li' à notre list
+  // ajoute un  'li' à notre list
   list.appendChild(li)
 }
 
@@ -29,6 +29,7 @@ function addToList(value) {
 
 function nettoyerLaListe() {
   console.log("Liste nettoyée");
+
   list.innerHTML = []
 }
 

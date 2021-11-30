@@ -53,7 +53,6 @@ function ajouterUneTache(e) {
 
     contenuTache.value = ""
 
-
     e.preventDefault()
 }
 // Supprimer une tâche
